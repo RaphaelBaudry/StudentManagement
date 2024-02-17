@@ -20,7 +20,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 public class SpringBootApplicationRun extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
-		 System.getProperties().put( "server.port", "8376");  // port is set here
+		 System.getProperties().put( "server.port", "8447");  // port is set here
 		 SpringApplication.run(SpringBootApplicationRun.class, args);
 	}
 	
